@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atakan Mortgages</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="calculator.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="atakan-mortgages-logo.png" alt="Atakan Mortgages Logo" class="logo">
+    <nav>
+      <a href="#calculator">Mortgage Calculator</a>
+      <a href="#apply">Application Form</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <img src="hero-placeholder.jpg" alt="Mortgage Hero Image" class="hero-img">
+      <h1>Welcome to Atakan Mortgages</h1>
+      <p>Your trusted partner in finding the perfect mortgage solution.</p>
+    </section>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>Hi, I'm Atakan — a dedicated mortgage advisor committed to helping individuals and families secure the home of their dreams. With a deep understanding of the mortgage market and a client-first approach, I make navigating your financial future simple, clear, and stress-free.</p>
+    </section>
+    <section id="calculator">
+      <h2>Mortgage Calculator</h2>
+      <div>
+        <input type="number" id="amount" placeholder="Loan Amount (£)">
+        <input type="number" id="interest" placeholder="Interest Rate (%)">
+        <input type="number" id="years" placeholder="Term (years)">
+        <button onclick="calculateMortgage()">Calculate</button>
+        <p id="result"></p>
+      </div>
+    </section>
+    <section id="apply">
+      <h2>Apply for a Mortgage</h2>
+      <form>
+        <input type="text" placeholder="Full Name" required><br>
+        <input type="email" placeholder="Email Address" required><br>
+        <input type="tel" placeholder="Phone Number" required><br>
+        <input type="number" placeholder="Loan Amount (£)" required><br>
+        <textarea placeholder="Additional Information"></textarea><br>
+        <button type="submit">Submit Application</button>
+      </form>
+    </section>
+  </main>
+  <footer>&copy; 2025 Atakan Mortgages</footer>
+</body>
+</html>
